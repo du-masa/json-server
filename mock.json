@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "react2",
+      "author": "facebook5",
+      "id": 1
+    },
+    {
+      "title": "react1",
+      "author": "facebook9",
+      "id": 2
+    },
+    {
+      "title": "react3",
+      "author": "facebook5",
+      "id": 3
+    },
+    {
+      "title": "react5",
+      "author": "facebook2",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
