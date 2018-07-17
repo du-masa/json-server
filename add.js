@@ -1,10 +1,7 @@
 
 axios({
     method: 'POST',
-    url:'/posts',
-    headers: {
-        'Content-Type': 'application/json'
-    },
+    url:'http://localhost:3000/posts',
     data: {
         'title': 'react' + Math.round((Math.random() * 10)),
         'author': 'facebook' + Math.round((Math.random() * 10))

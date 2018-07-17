@@ -1,5 +1,5 @@
 
-axios.get('/posts').then(function(res) {
+axios.get('http://localhost:3000/posts').then(function(res) {
 
     const wrapper = document.querySelector('#wrapper');
 

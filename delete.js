@@ -1,7 +1,7 @@
 
 axios({
     method: 'DELETE',
-    url:'/posts/4',
+    url:'http://localhost:3000/posts/4',
 }).then(function(res) {
 
     const wrapper = document.querySelector('#wrapper');
