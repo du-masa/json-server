@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api-server": "json-server --watch mock.json --port 3000",
+    "api-server": "json-server --watch mock.json --port 3030",
     "server": "browser-sync start --config bs-config.js"
   },
   "repository": {
